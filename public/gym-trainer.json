@@ -2,43 +2,43 @@
     {
         "id": 1,
         "name": "ENGINE DIAGNOSTIC",
-        "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "price": "450",
+        "description": "Top 5 training specialist interview questions with detailed tips for both hiring managers and candidates.",
         "img": "https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80"
     },
     {
         "id": 2,
         "name": "WHEEL ALIGNMENT",
-        "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "price": "300",
+        "description": "Learn about the key requirements, duties, responsibilities, and skills that should be in a training manager job description.",
         "img": "https://i.ibb.co/SNvxcY8/trainer-2.jpg"
     },
     {
         "id": 3,
         "name": "OIL CHANGING",
-        "price": "150",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "price": "250",
+        "description": "Top 5 training manager interview questions with detailed tips for both hiring managers and candidates",
         "img": "https://images.unsplash.com/photo-1584952811565-c4c4031805a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z3ltJTIwdHJhaW5lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
     },
     {
         "id": 4,
         "name": "BRAKE REPARING",
-        "price": "180",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "price": "480",
+        "description": "Learn about the key requirements, duties, responsibilities, and skills that should be in a corporate trainer job description.",
         "img": "https://images.unsplash.com/photo-1578971102567-916960872844?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGd5bSUyMHRyYWluZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
     },
     {
         "id": 5,
         "name": "WASH AND GLASSING",
-        "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "price": "300",
+        "description": "Top 5 corporate trainer interview questions with detailed tips for both hiring managers and candidates",
         "img": "https://images.unsplash.com/photo-1491756975177-a13d74ed1e2f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80"
     },
     {
         "id": 6,
         "name": "COMPLETE ANALYSIS",
-        "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "price": "350",
+        "description": "Tracks and analyzes learning curriculum effectiveness through various evaluation techniques, including the evaluation of individual performances",
         "img": "https://images.pexels.com/photos/6740038/pexels-photo-6740038.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     }
 ]
