@@ -9,6 +9,8 @@ import Bloge from './Compontes/Bloge/Bloge';
 import Login from './Compontes/Login/Login';
 import Footer from './Compontes/Footer/Footer';
 import ServicesDetails from './Compontes/ServicesDetails/ServicesDetails';
+import NotFund from './Compontes/Notfund/NotFund';
+import Register from './Compontes/Login/Register';
 
 
 
@@ -27,7 +29,8 @@ function App() {
     <Route path='experts' element={<Experts></Experts>}></Route>
    <Route path='/blog' element={<Bloge></Bloge>}></Route>
    <Route path='/login' element={<Login></Login>}></Route>
-
+   <Route path='register' element={<Register></Register>}></Route>
+   <Route path="*" element={<NotFund></NotFund>}></Route>
   </Routes>
   <Footer></Footer>
   </div>
