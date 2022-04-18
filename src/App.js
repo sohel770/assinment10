@@ -13,6 +13,7 @@ import NotFund from './Compontes/Notfund/NotFund';
 import Register from './Compontes/Login/Register';
 import Cheackout from './Compontes/Checkout/Cheackout';
 import RequireAuth from './Compontes/Login/RequireAuth/RequireAuth';
+import About from './Compontes/About/About';
 
 
 
@@ -35,6 +36,7 @@ function App() {
    <Route path='/blog' element={<Bloge></Bloge>}></Route>
    <Route path='/login' element={<Login></Login>}></Route>
    <Route path='register' element={<Register></Register>}></Route>
+   <Route path='/about' element={<About></About>}></Route>
    <Route path="*" element={<NotFund></NotFund>}></Route>
   </Routes>
   <Footer></Footer>
