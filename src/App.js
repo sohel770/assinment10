@@ -11,6 +11,8 @@ import Footer from './Compontes/Footer/Footer';
 import ServicesDetails from './Compontes/ServicesDetails/ServicesDetails';
 import NotFund from './Compontes/Notfund/NotFund';
 import Register from './Compontes/Login/Register';
+import Cheackout from './Compontes/Checkout/Cheackout';
+import RequireAuth from './Compontes/Login/RequireAuth/RequireAuth';
 
 
 
@@ -25,7 +27,10 @@ function App() {
     <Route path='/home' element={<Home></Home>}></Route>
     <Route path='/services' element={<Services></Services>}></Route>
     <Route path='/services/:serviceId' element={<ServicesDetails></ServicesDetails>}></Route>
+    <Route path='/checkout' element={
+     <RequireAuth><Cheackout></Cheackout></RequireAuth>
 
+    }></Route>
     <Route path='experts' element={<Experts></Experts>}></Route>
    <Route path='/blog' element={<Bloge></Bloge>}></Route>
    <Route path='/login' element={<Login></Login>}></Route>

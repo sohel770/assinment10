@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Form } from 'react-bootstrap';
 import './Login.css'
 import google from '../../images/google.png'
-import { useParams } from 'react-router-dom';
+import { useLocation, useParams } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
@@ -20,6 +20,11 @@ const navigate=useNavigate()
   error,
 ] = useSignInWithEmailAndPassword(auth);
 
+const location=useLocation()
+let from = location.state?.from?.pathname || "/";
+
+
+
 const handleonSubmit=event=>{
     event.preventDefault();
     const email=emailRef.current.value
@@ -28,7 +33,7 @@ const handleonSubmit=event=>{
     signInWithEmailAndPassword(email, password)
 }
 if(user){
-  navigate('/home')
+  navigate(from, { replace: true });
 }
 
 
