@@ -4,16 +4,19 @@ import './Login.css'
 import google from '../../images/google.png'
 import { useLocation, useParams } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
-import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import SocialLogin from './SocialLogin/SocialLogin';
+import Loading from '../Loading/Loading';
 
 
 const Login = () => {
 const navigate=useNavigate()
  const emailRef=useParams('')
  const passwordRef=useParams('')
-
+ const [sendPasswordResetEmail] = useSendPasswordResetEmail(
+  auth
+);
  const [
   signInWithEmailAndPassword,
   user,
@@ -24,8 +27,14 @@ const navigate=useNavigate()
 const location=useLocation()
 let from = location.state?.from?.pathname || "/";
 
+let errorElement;
+if (error) {
+    errorElement = <p className="text-danger">Error: {error.message}</p>
 
-
+}
+if(loading){
+  return <Loading></Loading>
+}
 const handleonSubmit=event=>{
     event.preventDefault();
     const email=emailRef.current.value
@@ -37,7 +46,11 @@ if(user){
   navigate(from, { replace: true });
 }
 
-
+const resetPassword =async () => {
+  const email=emailRef.current.value
+  await sendPasswordResetEmail(email);
+          alert('Sent email');
+}
 
 const navigateRegister=event=>{
   navigate('/register')
@@ -58,11 +71,15 @@ const navigateRegister=event=>{
   </Form.Group>
 
 
-<p className="">New to gym <span className='text-primary' onClick={navigateRegister}>Please Register</span></p>
+<p className="">New Strength Center
+ <span className='text-primary' onClick={navigateRegister}> Please Register</span></p>
+
+<p className="">Forget Password <span className='text-primary' onClick={resetPassword}>Reset Password</span></p>
   
   <Button variant="primary" type="submit">
     Submit
   </Button>
+  {errorElement}
 </Form>
 <SocialLogin></SocialLogin>
         </div>

@@ -4,6 +4,7 @@ import {useNavigate} from 'react-router-dom'
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import SocialLogin from './SocialLogin/SocialLogin';
+import Loading from '../Loading/Loading';
 
 
 
@@ -19,8 +20,11 @@ const Register = () => {
         user,
         loading,
         error,
-      ] = useCreateUserWithEmailAndPassword(auth);
-
+      ] = useCreateUserWithEmailAndPassword(auth,{emailVerificationOptions:true});
+      
+      if(loading){
+        return <Loading></Loading>
+      }
 if(user){
     navigate('/home')
 }
@@ -33,6 +37,7 @@ const handleonSubmit = (event) => {
    const password=event.target.password.value
 
    createUserWithEmailAndPassword(email, password)
+   
 }
 
 
@@ -50,7 +55,7 @@ const handleonSubmit = (event) => {
                 <input type="password" name="password" id="" placeholder="Enter Your Password" />
                 {/* <input type="submit" value="Register" /> */}
 
-                <p className="">New to gym <span className='text-primary' onClick={navigateRegister}>Please Login</span></p>
+                <p className="">Already have an account <span className='text-primary' onClick={navigateRegister}>Please Login</span></p>
 
                 <button className='btn btn-primary text-center'>Register</button>
             </form>
