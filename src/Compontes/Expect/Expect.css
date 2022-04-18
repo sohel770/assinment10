@@ -1,0 +1,9 @@
+/* .trainer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    box-shadow: 0px 0px 10px gray;
+    
+}
+
+/* make services responsive */

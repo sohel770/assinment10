@@ -7,6 +7,7 @@ import Services from './Compontes/Services/Services';
 import Experts from './Compontes/Experts/Experts';
 import Bloge from './Compontes/Bloge/Bloge';
 import Login from './Compontes/Login/Login';
+import Footer from './Compontes/Footer/Footer';
 
 
 
@@ -25,7 +26,7 @@ function App() {
    <Route path='/login' element={<Login></Login>}></Route>
 
   </Routes>
-  
+  <Footer></Footer>
   </div>
       
   );

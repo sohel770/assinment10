@@ -15,7 +15,7 @@ const Service = ({ service }) => {
                     <img className='w-100' style={{height:'300px'}} src={img} alt="" />
                         <div class="card-body">
                             <h5 class="card-title">{name}</h5>
-                            <p class="card-text">Price:{price}</p>
+                            <h4 class="card-text">Price:${price}</h4>
                             <p class="card-text">{description}</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>

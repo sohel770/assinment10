@@ -4,41 +4,41 @@
         "name": "ENGINE DIAGNOSTIC",
         "price": "300",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/s9rDzk5/blog-1.jpg"
+        "img": "https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80"
     },
     {
         "id": 2,
         "name": "WHEEL ALIGNMENT",
         "price": "100",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/thhXqGK/blog-2.jpg"
+        "img": "https://i.ibb.co/SNvxcY8/trainer-2.jpg"
     },
     {
         "id": 3,
         "name": "OIL CHANGING",
         "price": "150",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/mS5X9cd/blog-3.jpg"
+        "img": "https://images.unsplash.com/photo-1584952811565-c4c4031805a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z3ltJTIwdHJhaW5lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
     },
     {
         "id": 4,
         "name": "BRAKE REPARING",
         "price": "180",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://images.unsplash.com/photo-1577221084712-45b0445d2b00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=398&q=80"
+        "img": "https://images.unsplash.com/photo-1578971102567-916960872844?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGd5bSUyMHRyYWluZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
     },
     {
         "id": 5,
         "name": "WASH AND GLASSING",
         "price": "100",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://worthstart.com/wp-content/uploads/2019/11/gym-names-idea-main-feature-image.jpg"
+        "img": "https://images.unsplash.com/photo-1491756975177-a13d74ed1e2f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80"
     },
     {
         "id": 6,
         "name": "COMPLETE ANALYSIS",
         "price": "300",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-        "img": "https://i.ibb.co/5GR4DqH/home-bg-3.jpg"
+        "img": "https://images.pexels.com/photos/6740038/pexels-photo-6740038.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     }
 ]
