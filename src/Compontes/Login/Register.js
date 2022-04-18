@@ -3,6 +3,7 @@ import './Register.css'
 import {useNavigate} from 'react-router-dom'
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
+import SocialLogin from './SocialLogin/SocialLogin';
 
 
 
@@ -49,15 +50,11 @@ const handleonSubmit = (event) => {
                 <input type="password" name="password" id="" placeholder="Enter Your Password" />
                 {/* <input type="submit" value="Register" /> */}
 
-                <p className="">New to gym <span className='text-primary' onClick={navigateRegister}>Please Register</span></p>
+                <p className="">New to gym <span className='text-primary' onClick={navigateRegister}>Please Login</span></p>
 
                 <button className='btn btn-primary text-center'>Register</button>
             </form>
-
-
-            {/* <button className='btn btn-primary text-center my-4'>google sing in</button> */}
-
-
+           <SocialLogin></SocialLogin>
             </div>
         </div>
     );

@@ -6,6 +6,7 @@ import { useLocation, useParams } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
+import SocialLogin from './SocialLogin/SocialLogin';
 
 
 const Login = () => {
@@ -56,14 +57,6 @@ const navigateRegister=event=>{
     <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
   </Form.Group>
 
-  {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
-    <Form.Check type="checkbox" label="Check me out" />
-  </Form.Group>  */}
-
-  {/* <div className='google-sing'>
-    
-  <Button>  <img style={{height:'30px', width:'30px'}} src={google} alt="" />Google Sign In</Button>
-  </div> */}
 
 <p className="">New to gym <span className='text-primary' onClick={navigateRegister}>Please Register</span></p>
   
@@ -71,7 +64,7 @@ const navigateRegister=event=>{
     Submit
   </Button>
 </Form>
-
+<SocialLogin></SocialLogin>
         </div>
     );
 };
