@@ -14,6 +14,7 @@ import Register from './Compontes/Login/Register';
 import Cheackout from './Compontes/Checkout/Cheackout';
 import RequireAuth from './Compontes/Login/RequireAuth/RequireAuth';
 import About from './Compontes/About/About';
+import Logins from './Compontes/Login/Logins';
 
 
 
@@ -34,7 +35,8 @@ function App() {
     }></Route>
     <Route path='experts' element={<Experts></Experts>}></Route>
    <Route path='/blog' element={<Bloge></Bloge>}></Route>
-   <Route path='/login' element={<Login></Login>}></Route>
+   {/* <Route path='/login' element={<Login></Login>}></Route> */}
+   <Route path='/login' element={<Logins></Logins>}></Route>
    <Route path='register' element={<Register></Register>}></Route>
    <Route path='/about' element={<About></About>}></Route>
    <Route path="*" element={<NotFund></NotFund>}></Route>
